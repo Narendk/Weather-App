@@ -45,18 +45,18 @@ const Weather = () => {
       <video ref={videoRef} autoPlay loop muted playsInline
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        <source src="/src/assets/weather-video.mp4" type="video/mp4" />
+        <source src="Weather-App/weather-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
       <div className="relative p-6 rounded-lg shadow-lg w-full max-w-md backdrop-blur-sm bg-white/10">
         <div className="space-y-4">
-          <h1 className="text-3xl font-bold text-center text-white flex justify-center items-center"><img src="./src/assets/weather-icon.png" alt="weather-icon" />Weather Report</h1>
+          <h1 className="text-3xl font-bold text-center text-white flex justify-center items-center"><img src=" /Weather-App/weather-icon.png" alt="weather-icon" />Weather Report</h1>
 
           <div className="border border-white/50 rounded overflow-hidden bg-white/20">
             <label className="flex items-center px-2">
               <img
-                src="./src/assets/icons8-location.gif"
+                src="/Weather-App/icons8-location.gif"
                 alt="location"
                 className="w-8 h-8"
               />
