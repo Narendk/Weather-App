@@ -30,7 +30,7 @@ Assets: Background video & weather icons
 
 Clone the repository
 
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/Narendk/Weather-App.git
 
 
 **🔑 API Key Setup**
