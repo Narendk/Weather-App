@@ -1,6 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import axios from "axios";
 import { FaCloudSun, FaTemperatureHigh, FaRegStickyNote, FaCity } from "react-icons/fa";
+import weatherVideo from "../assets/images/weather-video.mp4";
+import weatherIcon from "../assets/images/weather-icon.png";
+import locationGif from "../assets/images/icons8-location.gif";
 
 const Weather = () => {
 
@@ -47,21 +50,21 @@ const Weather = () => {
       <video ref={videoRef} autoPlay loop muted playsInline
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        <source src={`${process.env.PUBLIC_URL}/weather-video.mp4`} type="video/mp4" />
+        <source src={weatherVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
       <div className="relative p-6 rounded-lg shadow-lg w-full max-w-md backdrop-blur-sm bg-white/10">
         <div className="space-y-4">
           <h1 className="text-3xl font-bold text-center text-white flex justify-center items-center">
-            <img src={`${process.env.PUBLIC_URL}/weather-icon.png`} alt="weather-icon" className="w-10 h-10 mr-2" />
+            <img src={weatherIcon} alt="weather-icon" className="w-10 h-10 mr-2" />
             Weather Report
           </h1>
 
           <div className="border border-white/50 rounded overflow-hidden bg-white/20">
             <label className="flex items-center px-2">
               <img
-                src={`${process.env.PUBLIC_URL}/icons8-location.gif`}
+                src={locationGif}
                 alt="location"
                 className="w-8 h-8"
               />
