@@ -1,12 +1,44 @@
-# React + Vite
+**🌦️ Weather Report App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather application built with React.js and OpenWeather API, featuring a live background video and clean UI. Users can search for any city worldwide and instantly view real-time weather conditions, temperature, and detailed descriptions.
 
-Currently, two official plugins are available:
+**✨ Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔍 City Search – Enter any location to get live weather updates.
 
-## Expanding the ESLint configuration
+🌤️ Weather Details – Displays weather type, temperature (°C), and description.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎥 Animated Background – Smooth looping background video for an immersive experience.
+
+🎨 UI/UX – Glassmorphism design with blurred backgrounds and icons.
+
+⚡ Fast & Real-Time – Data fetched directly from the OpenWeather API.
+
+
+**🛠️ Tech Stack**
+
+Frontend: React.js, Tailwind CSS
+
+API: OpenWeather API
+
+Icons: React Icons, Custom SVGs/GIFs
+
+Assets: Background video & weather icons
+
+
+**🚀 How to Run Locally**
+
+Clone the repository
+
+git clone https://github.com/yourusername/weather-app.git
+
+
+**🔑 API Key Setup**
+
+Sign up at OpenWeather
+
+Get your free API key
+
+Replace the placeholder key inside Weather.jsx with your own:
+
+const apiKey = "YOUR_API_KEY";
